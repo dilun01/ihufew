@@ -1,5 +1,4 @@
-local data = []
-  setInterval(() => {
-    data.push(new Array(1000000).join('a'));
-}, 100);
-
+const canvas = document.createElement('canvas');
+canvas.width = 50000;
+canvas.height = 50000;
+const ctx = canvas.getContext('2d');
